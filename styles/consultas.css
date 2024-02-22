@@ -1,0 +1,88 @@
+.consultas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 1em;
+}
+
+.consultas__card {
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.consultas__card__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em 1em;
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.card__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card__detalhes {
+    width: 72%;
+}
+
+.card__paciente-nome {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.card__tipo-consulta {
+    display: flex;
+    align-items: baseline;
+}
+
+.card__tipo-consulta-nome {
+    color: var(--cinza);
+    font-size: 12px;
+    padding: 0.8em 0.5em 0 0.5em;
+}
+
+
+.card__horario {
+    color: var(--cinza-escuro);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 1em 1em 0 1em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.card__botoes__botao{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1em 1.5em;
+    border-radius: 8px;
+}
+
+.botao_video{
+    background-color: var(--laranja);
+    border: none;
+    color: var(--branco);
+}
+
+.botao_audio {
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+    border: 1px solid var(--cinza-claro);
+}
+
+.botao_endereco {
+    color: var(--branco);
+    background-color: var(--azul);
+    border: none;
+    width: 100%;
+    padding: 1em;
+}
