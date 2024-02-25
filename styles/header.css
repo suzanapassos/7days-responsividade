@@ -23,3 +23,9 @@
 .cabecalho__texto__subtitulo{
     color: var(--cinza);
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 2em;
+    }
+}

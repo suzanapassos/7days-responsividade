@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(styles/header.css);
 @import url(styles/consultas.css);
+@import url(styles/footer.css);
 
 :root {
     --background: linear-gradient(180deg, rgba(248,244,255,1) 100%, rgba(239,240,244,1) 100%);
@@ -20,4 +21,5 @@ body {
     background: var(--background);
     font-family: var(--fonte-principal);
     font-size: 14px;
+    margin-bottom: 4em;
 }

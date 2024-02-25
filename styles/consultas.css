@@ -5,10 +5,17 @@
     padding: 0 1em;
 }
 
+.consultas__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .consultas__card {
     background-color: var(--branco);
     margin: 1em;
     border-radius: 8px;
+    width: 328px;
 }
 
 .consultas__card__cabecalho {
@@ -56,7 +63,7 @@
 .card__botoes {
     display: flex;
     justify-content: space-between;
-    padding: 1em 1em;
+    padding: 0.5em;
 }
 
 .card__botoes__botao{
@@ -85,4 +92,46 @@
     border: none;
     width: 100%;
     padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .consultas__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 2em;
+    }
+
+    .consultas__titulo {
+        padding: 0 2.5em;
+    }
+
+    .consultas__card {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .consultas__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 2em;
+        justify-items: center;
+    }
+
+    .consultas__card {
+        width: 80%;
+    }
+    
+    .card__botoes__botao {
+        padding: 1em 2em;
+    }
+
+    .card__botoes {
+        justify-content: space-around;
+    }
+
+    .consultas__titulo {
+        padding: 1em 2em;
+        background-color: var(--branco);
+    }
 }
