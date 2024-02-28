@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(styles/header.css);
 @import url(styles/consultas.css);
+@import url(styles/cadastro.css);
 @import url(styles/footer.css);
 
 :root {
@@ -12,6 +13,7 @@
     --cinza-escuro: #464646;
     --cinza: #A3A3A3;
     --cinza-claro: #ECECEC;
+    --cinza-claro2: #CFCFCF;
     --azul: #4894FF;
     --off-white: #F6F6F6;
     --laranja: #FFB050;
@@ -25,6 +27,10 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+    body {
+        margin-bottom: 1em;
+    }
+
     main {
         position:relative;
         left: 13em;

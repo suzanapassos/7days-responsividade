@@ -78,4 +78,8 @@
         width: 24px;
     }
 
+    .botao-flutuante {
+        display: none;
+    }
+
 }

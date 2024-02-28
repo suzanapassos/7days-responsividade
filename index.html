@@ -8,196 +8,246 @@
 </head>
 <body>
     <main>
-    <header class="cabecalho">
-        <div class="cabecalho__imagem"><img src="/assets/perfil-1.svg" alt="" class="cabecalho__imagem_avatar"></div>
-        <div class="cabecalho__texto">
-            <h1 class="cabecalho__texto__titulo">Olá, Sônia</h1>
-            <p class="cabecalho__texto__subtitulo">Mais 4 consultas hoje</p>
+        <header class="cabecalho">
+            <div class="cabecalho__imagem"><img src="/assets/perfil-1.svg" alt="" class="cabecalho__imagem_avatar"></div>
+            <div class="cabecalho__texto">
+                <h1 class="cabecalho__texto__titulo">Olá, Sônia</h1>
+                <p class="cabecalho__texto__subtitulo">Mais 4 consultas hoje</p>
+            </div>
+        </header>
+
+        <section class="consultas">
+            <h2 class="consultas__titulo">Hoje</h2>
+            <div class="consultas__container">
+                <!-- Card de consulta remota -->
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-2.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Luciana Dias</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">14:00 - 15:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card de consulta no local -->
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-3.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Larissa Santana</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/pin.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta no local</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">16:00 - 17:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_endereco">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-4.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Marcos Correia</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-5.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Clara Lemos</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">17:00 - 18:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="consultas__titulo">Amanhã</h2>
+            <div class="consultas__container">
+                <!-- Card de consulta no local -->
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-3.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Larissa Santana</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/pin.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta no local</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">16:00 - 17:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_endereco">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-4.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Marcos Correia</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card de consulta remota -->
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-2.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Luciana Dias</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">14:00 - 15:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consultas__card">
+                    <div class="consultas__card__cabecalho">
+                        <img src="/assets/perfil-5.svg" alt="Foto do paciente" class="card__avatar">
+                        <div class="card__detalhes">
+                            <p class="card__paciente-nome">Clara Lemos</p>
+                            <div class="card__tipo-consulta">
+                                <img src="/assets/camera.svg" alt="">
+                                <p class="card__tipo-consulta-nome">Consulta remota</p>
+                            </div>
+                        </div>
+                        <img src="/assets/chat.svg" alt="Iniciar chat">
+                    </div>
+                    <div class="consultas__card__conteudo">
+                        <p class="card__horario">17:00 - 18:00 (1 hora)</p>
+                        <div class="card__botoes">
+                            <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
+                            <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="botao-flutuante">
+            <a href="#"><img src="/assets/mais-icone.svg" alt="" class="botao-flutuante__icone"></a>
         </div>
-    </header>
 
-    <section class="consultas">
-        <h2 class="consultas__titulo">Hoje</h2>
-        <div class="consultas__container">
-            <!-- Card de consulta remota -->
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-2.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Luciana Dias</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
-                </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">14:00 - 15:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
-                    </div>
-                </div>
+        <section class="cadastro-consulta">
+            <!-- Campo de texto para o nome do paciente
+                Campo de seleção de tipo de consulta
+                Campo para informar a data da consulta
+                Campo para informar o horário da consulta
+                Campo para informar observações
+                Botão para salvar a nova consulta -->
+            <div class="cadastro-consulta__titulo">
+                <i class="fa-solid fa-clipboard" style="color: #4894ff; font-size: 20px;"></i>
+                <h2 class="cadastro-consulta__texto">Nova consulta</h2>
             </div>
+            <form class="cadastro-consulta__formulario">
+                <div class="cadastro-consulta__campo">
+                    <label for="nome-paciente" class="cadastro__labels">Nome do paciente:</label>
+                    <input type="text" name="nome-paciente" id="nome-paciente" placeholder="Insira o nome completo" required>
+                </div>
 
-            <!-- Card de consulta no local -->
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-3.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Larissa Santana</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/pin.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
+                <div class="cadastro-consulta__grupo">
+                    <label for="tipo-consulta" class="cadastro__labels">Selecione o tipo da consulta:</label>
+                    <label class="tipo-consulta__label"> 
+                        <input type="radio" name="tipo-consulta" id="tipo-consulta" value="presencial" checked>Presencial
+                    </label>
+                    <label class="tipo-consulta__label"> 
+                        <input type="radio" name="tipo-consulta" id="tipo-consulta" value="remota">Remota
+                    </label>
                 </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">16:00 - 17:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_endereco">Ver endereço</button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-4.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Marcos Correia</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
+                <div class="cadastro-consulta__grupo">
+                    <label for="data-consulta" class="cadastro__labels">Data da consulta:</label>
+                    <input type="date" name="data-consulta" id="data-consulta" />
                 </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
+                <div class="cadastro-consulta__grupo">
+                    <label for="hora-consulta" class="cadastro__labels">Horário:</label>
+                    <div class="consulta__horario">
+                        <input type="time" name="hora-consulta" id="hora-consulta-inicio" min="08:00" max="18:00"/>
+                        <span class="cadastro__labels">às</span>
+                        <input type="time" name="hora-consulta" id="hora-consulta-fim" min="08:00" max="18:00"/>
                     </div>
                 </div>
-            </div>
 
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-5.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Clara Lemos</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
+                <div class="cadastro-consulta__campo">
+                    <label for="cadastro-observacoes" class="cadastro__labels">Observações:</label>
+                    <textarea name="cadastro-observacoes" id="cadastro-observacoes" rows="3"></textarea>
                 </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">17:00 - 18:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2 class="consultas__titulo">Amanhã</h2>
-        <div class="consultas__container">
-            <!-- Card de consulta no local -->
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-3.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Larissa Santana</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/pin.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta no local</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
-                </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">16:00 - 17:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_endereco">Ver endereço</button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-4.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Marcos Correia</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
-                </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">17:20 - 18:00 (40 minutos)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
-                    </div>
-                </div>
-            </div>
+                <button class="cadastro-botao" type="submit" onsubmit="">Agendar</button>
+            </form>
+        </section>
 
-            <!-- Card de consulta remota -->
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-2.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Luciana Dias</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
-                </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">14:00 - 15:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="consultas__card">
-                <div class="consultas__card__cabecalho">
-                    <img src="/assets/perfil-5.svg" alt="Foto do paciente" class="card__avatar">
-                    <div class="card__detalhes">
-                        <p class="card__paciente-nome">Clara Lemos</p>
-                        <div class="card__tipo-consulta">
-                            <img src="/assets/camera.svg" alt="">
-                            <p class="card__tipo-consulta-nome">Consulta remota</p>
-                        </div>
-                    </div>
-                    <img src="/assets/chat.svg" alt="Iniciar chat">
-                </div>
-                <div class="consultas__card__conteudo">
-                    <p class="card__horario">17:00 - 18:00 (1 hora)</p>
-                    <div class="card__botoes">
-                        <button class="card__botoes__botao botao_video">Ligar por vídeo</button>
-                        <button class="card__botoes__botao botao_audio">Ligar por áudio</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="botao-flutuante">
-        <a href="#"><img src="/assets/mais-icone.svg" alt="" class="botao-flutuante__icone"></a>
-    </div>
     </main>
-    
+
     <footer class="rodape">
         <nav class="rodape__menu">
             <ul class="rodape__menu__lista">
@@ -228,6 +278,6 @@
             </ul>
         </nav>
     </footer>
-    
+    <script src="https://kit.fontawesome.com/a848254dce.js" crossorigin="anonymous"></script>
 </body>
 </html>

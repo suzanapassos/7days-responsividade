@@ -1,0 +1,91 @@
+.cadastro-consulta {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cadastro-consulta {
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 1440px){
+    .cadastro-consulta {
+        background-color: var(--branco);
+        display: block;
+        padding: 1em;
+        margin: 1em 3em;
+        border-radius: 8px;
+    }
+
+    .cadastro-consulta__titulo{
+        display: flex;
+        gap: 1em;
+        padding-bottom: 1em;
+    }
+
+    .cadastro-consulta__texto {
+        color: var(--cinza-escuro);
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .cadastro__labels {
+        color: var(--cinza-escuro);
+        font-weight: 500;
+        padding: 0.5em 0;
+    }
+    
+    .cadastro-consulta__grupo,
+    .cadastro-consulta__campo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cadastro-consulta__formulario {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    #nome-paciente {
+        font-family: var(--fonte-principal);
+        padding: 1em;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid var(--cinza-claro);
+    }
+
+    #nome-paciente::placeholder {
+        font-family: var(--fonte-principal);
+        color: var(--cinza-claro2);
+    }
+
+    #cadastro-observacoes{
+        font-family: var(--fonte-principal);
+        padding: 1em;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid var(--cinza-claro);
+    }
+
+    .tipo-consulta__label {
+        padding: 0.5em 0;
+    }
+
+    .cadastro-botao {
+        color: var(--branco);
+        background-color: var(--azul);
+        padding: 1em;
+        border: none;
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+
+    .cadastro-botao:hover {
+        background-color: #4786F0;
+    }
+
+}
